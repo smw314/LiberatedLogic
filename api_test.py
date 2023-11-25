@@ -1,7 +1,7 @@
 from googleapiclient import discovery
 import json
 
-API_KEY = 'AIzaSyDs1VNg4YmNqnsZI-WESdIKIAsFDe8okKY'
+API_KEY = ''
 
 client = discovery.build(
   "commentanalyzer",
@@ -11,7 +11,7 @@ client = discovery.build(
   static_discovery=False,
 )
 
-comment = "Luca please kill yourself"
+comment = ""
 
 analyze_request = {
   'comment': { 'text': comment },
@@ -27,11 +27,3 @@ print("Toxicity Value:", comment_value)
 
 # response = client.comments().analyze(body=analyze_request).execute()
 # print(json.dumps(response, indent=2))
-
-
-
-
-
-
-
-# combine the gpt 4 output and this into 1!!!!!!!!!!

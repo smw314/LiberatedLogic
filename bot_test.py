@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = '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'
+openai.api_key = ''
 
 prompt = "How can we fight inflation?"
 

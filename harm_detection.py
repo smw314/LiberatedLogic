@@ -11,16 +11,16 @@ import ssl
 
 ssl._create_default_https_context = ssl._create_unverified_context
 
-subscription_key = "d6492f80fb9b48e091b6667f3deb8a55"
-endpoint = "perrincorp.cognitiveservices.azure.com"
+subscription_key = ""
+endpoint = ""
 
 # Set up OpenAI API key
-openai.api_key = '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'
+openai.api_key = ''
 
 # Get user's message
-message = "I hate fags"
+message = ""
 
-API_KEY = 'AIzaSyDs1VNg4YmNqnsZI-WESdIKIAsFDe8okKY'
+API_KEY = ''
 
 client = discovery.build(
   "commentanalyzer",
